@@ -120,6 +120,7 @@ hr{
 	display: block;
   	margin-left: auto;
   	margin-right: auto;
+  	margin-top: -8px;
 }
 
 @media (max-width: 332px) { 
@@ -150,3 +151,11 @@ hr{
 		line-height: 50px;
 	}
 }
+
+/*
+@media (min-width: 1199.98px) { 
+	body {
+		background-color: red;
+	}
+}
+*/
