@@ -1,0 +1,152 @@
+body {
+  background-color: #b0e2ffff;
+}
+
+.intro-box {
+	/* background-color: #ffffff5c; */
+	text-align: center;
+	font-size: 34px;
+	padding-top: 30px;
+	padding-left: 2px;
+	padding-right: 2px;
+	/* top right bot left */
+	/*
+	width: 700px;
+	height: 350px;
+	border: 2px solid red ;
+	*/
+}
+
+/*
+.social-links {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	text-align: center;
+}
+
+.social-links li { 
+	display: inline; 
+}
+
+.social-links li a { 
+	text-decoration: none; 
+	padding: .2em 1em;
+
+}
+*/
+
+/* https://codepen.io/CF-251/pen/mBxoRW */
+.wrapper,.copyright {
+	padding-top: 15px;
+	text-align: center;
+}
+hr{
+	margin: 30px 20px;
+	border-top:2px solid #1C1E26 ;
+	border-bottom:2px solid #38404D;
+}
+.list-unstyled {
+	padding-left: 0;
+	list-style: none;
+}
+.list-inline li {
+	display: inline-block;
+	padding-right: 5px;
+	padding-left: 5px;
+	margin-bottom: 12px;
+}
+/*---- Genral classes end -------*/
+
+/*Change icons size here*/
+.social-icons .fab {
+	font-size: 1.0em;
+}
+#hs-icon {
+	width: auto;
+    height: 30px;
+    margin-bottom: 4px;
+}
+#dv-icon {
+	width: auto;
+    height: 42px;
+    margin-bottom: 5px;
+}
+/*Change icons circle size and color here*/
+.social-icons .fab {
+	width: 58px;
+	height: 58px;
+	line-height: 58px;
+	text-align: center;
+	color: white;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
+.social-icons.icon-circle .fab{ 
+	border-radius: 50%;
+}
+.social-icons.icon-rounded .fab{
+	border-radius:5px;
+}
+.social-icons.icon-flat .fab{
+	border-radius: 0;
+}
+
+.social-icons .fab:hover, .social-icons .fab:active {
+	/* color: blue; */
+	opacity: 0.8;
+	-webkit-box-shadow: 1px 1px 3px #333;
+	-moz-box-shadow: 1px 1px 3px #333;
+	box-shadow: 1px 1px 3px #333; 
+}
+
+.social-icons .fa-github {background-color: #211F1F;} 
+.social-icons .fa-linkedin {background-color: #0077B5;}
+#fa-hs {background-color: #fecd00;}
+#fa-dv {background-color: #013d52;}
+
+/*
+#desk {
+	width: 100%;
+  	height: auto;
+}
+*/
+
+#desk {
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+}
+
+@media (max-width: 332px) { 
+	/*
+	body {
+		background-color: red;
+	}
+	*/
+	.intro-box p {
+		font-size: 30px;
+	}
+	.social-icons .fab {
+		font-size: 0.8em;
+	}
+	#hs-icon {
+		width: auto;
+	    height: 24px;
+	    margin-bottom: 4px;
+	}
+	#dv-icon {
+		width: auto;
+	    height: 32px;
+	    margin-bottom: 3px;
+	}
+	.social-icons .fab {
+		width: 50px;
+		height: 50px;
+		line-height: 50px;
+	}
+}
