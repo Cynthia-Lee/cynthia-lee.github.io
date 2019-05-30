@@ -1,4 +1,4 @@
 # cynthia-lee.github.io
 Personal Website
 
-Desk pixel art by me! :)
+Pixel art of computer desk was made by me! :)
