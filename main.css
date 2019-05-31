@@ -1,5 +1,6 @@
 body {
-  background-color: #b0e2ffff;
+  /* background-color: #b0e2ffff; */
+  background-color: rgba(176, 226, 255, 255);
 }
 
 .intro-box {
