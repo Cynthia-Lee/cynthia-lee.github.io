@@ -3,4 +3,4 @@ Personal Website
 
 https://cynthia-lee.github.io/
 
-Pixel art of computer desk was made by me! :)
+Pixel art of the computer desk was made by me! :)
