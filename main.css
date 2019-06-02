@@ -158,6 +158,14 @@ hr{
 	}
 }
 
+#profile-picture {
+	width: 20%;
+	/* 9% */
+	height: auto;
+	float: left;
+	margin-right: 30px;
+}
+
 /*
 @media (min-width: 1199.98px) { 
 	body {
